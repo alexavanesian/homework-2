@@ -13,9 +13,6 @@ class Book {
 }
 
 void main() {
-  final book1 = Book('1984', 'George Orwell', 328);
-  final book2 = Book('The Hobbit', 'J.R.R. Tolkien', 310);
-
-  print(book1.getinfo());
-  print(book2.getinfo());
+  final book = Book('Գիրք', 'Հեղինակ', 120);
+  print(book.getinfo());
 }

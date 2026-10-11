@@ -16,13 +16,10 @@ Map<String, double> totalByCategory(List<Product> products) {
 
 void main() {
   final products = [
-    Product('Laptop', 'Electronics', 999.99),
-    Product('Phone', 'Electronics', 699.50),
-    Product('Shirt', 'Clothing', 29.99),
-    Product('Jeans', 'Clothing', 49.99),
-    Product('Coffee', 'Groceries', 12.50),
+    Product('A1', 'C1', 100.0),
+    Product('A2', 'C1', 50.0),
+    Product('B1', 'C2', 30.0),
   ];
 
-  final totals = totalByCategory(products);
-  print('Total by category: $totals');
+  print(totalByCategory(products));
 }

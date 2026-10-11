@@ -11,5 +11,5 @@ Future<int> sumValues(int a, int b) async {
 
 Future<void> main() async {
   final result = await sumValues(15, 27);
-  print('Sum: $result');
+  print(result);
 }

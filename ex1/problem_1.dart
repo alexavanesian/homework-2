@@ -1,20 +1,20 @@
 void main() {
   List<String> items = [];
 
-  print('Is empty initially: ${items.isEmpty}');
+  print(items.isEmpty);
 
-  items.add('Apple');
-  items.add('Banana');
-  items.add('Cherry');
+  items.add('A');
+  items.add('B');
+  items.add('C');
 
-  items.insert(1, 'Orange');
+  items.insert(1, 'D');
 
   items.removeAt(2);
 
-  items[0] = 'Mango';
+  items[0] = 'E';
 
-  print('First element: ${items.first}');
-  print('Last element: ${items.last}');
-  print('Is empty now: ${items.isEmpty}');
-  print('Final list: $items');
+  print(items.first);
+  print(items.last);
+  print(items.isEmpty);
+  print(items);
 }

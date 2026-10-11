@@ -35,7 +35,5 @@ void main() {
     Motorcycle(3.5),
   ];
 
-  final distance = 250.0;
-  final total = totalConsumption(vehicles, distance);
-  print('Total fuel consumption for $distance km: $total liters');
+  print(totalConsumption(vehicles, 250.0));
 }
